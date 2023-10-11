@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,500;0,6..12,700;1,6..12,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Samrudh B</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            Samrudh B
+        </div>
+        <div class="menu">
+            <div class="navlinks">
+                <div><a href="#home">Home</a></div>
+                <div><a href="#skills">Skills</a></div>
+                <div><a href="#projects">Projects</a></div>
+                <div><a href="#contact">Contact</a></div>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div id="intro">
+            Hello! I am <span style="color: black;">Samrudh!</span><br>
+            I'm a   <span id="element" style="color: black;"></span>
+        </div>
+        <div id="image">
+            <img src="./img/samrudh.jpeg" height="350" width="350" />
+        </div>
+    </section>
+    <section id="skills">
+        <div class="heading">
+            SKILLS
+        </div>
+        <div id="skillsList">
+            <div class="skillcard">
+                <div class="skillname">MongoDB</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">Express</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">React</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">Node</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"/></div>
+            </div>
+            <div class="skillcard">
+                <div class="skillname">AWS</div>
+                <div class="skillimage"><img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"/></div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="heading">PROJECTS</div>
+        <div id="projectslist"><div class="projectcard">
+            <div class="projectname">Student-Management System</div>
+            <div class="projectdesc"> College Administration system to Access Student Results!</div>
+            <div class="projectlink"><a href="">Link</a></div>
+        </div>
+        <div class="projectcard">
+              <div class="projectname">Bingo Online Game</div>
+            <div class="projectdesc">Bingo Multiplayer Game to Play with Family and Friends.</div>
+            <div class="projectlink"><a href="">Link</a></div>
+        </div>
+        <div class="projectcard">
+              <div class="projectname">Online Restaurant System</div>
+            <div class="projectdesc"> Website to Preorder your Meal Before going to Restaurant!</div>
+            <div class="projectlink"><a href="">Link</a></div>
+        </div>
+        <div class="projectcard">
+              <div class="projectname">Protein Prediction System</div>
+            <div class="projectdesc">A website to predict the 3-D structues of proteins to find any genetic disorders.</div>
+            <div class="projectlink"><a href="">Link</a></div>
+        </div>
+        <div class="projectcard">
+              <div class="projectname">WhatsApp clone Master</div>
+            <div class="projectdesc"> A Frontend chat App like WhatsApp!</div>
+            <div class="projectlink"><a href="">Link</a></div>
+        </div>
+        <div class="projectcard">
+              <div class="projectname">Online Classroom </div>
+            <div class="projectdesc"> A Video Conferencing App with features of both Google Classroom and Google Meet!</div>
+            <div class="projectlink"><a href="">Link</a></div>
+        </div></div>
+    </section>
+    <section id="contact">
+        <div style="font-size: 1.2em;margin: 20px 0;">
+            <a href="https://docs.google.com/document/d/1HHmiEkNeWJ81mInGm5J5FjCBJK3PZkyQ8wyd0YwbxJQ/edit?usp=drivesdk">Click here</a> to view resume.
+        </div>
+        <div class="heading">
+            CONNECT WITH ME
+        </div>
+        <div style="width:400px;display: flex; justify-content: space-around;margin: 20px 0;">
+            <a href="https://www.github.com/samrudhb">
+                <i
+                  class="fa-brands fa-github"
+                ></i>
+              </a>
+              <a href="https://www.linkedin.com/in/samrudh-b-4b63ab242">
+                <i
+                  class="fa-brands fa-linkedin"
+                ></i>
+              </a>
+        </div>
+        <div style="display: flex;flex-direction: column;font-size: 1.2em; align-items: center;justify-content: space-around;height: 100px;">
+            <p>Phone: <a href="tel:+919686180805">+91 9686 180 805</a></p>
+            <p>Email: <a href="mailto:samrudhb75@gmail.com">samrudhb75@gmail.com</a></p>
+        
+        </div>
+    </section>
+    <footer>
+        Copyright &copy; Samrudh
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', 'Student.','Software Engineer.'],
+          typeSpeed: 50,
+          loop:true
+        });
+      </script>
+</body>
+</html>
